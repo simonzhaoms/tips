@@ -109,6 +109,10 @@ This example will show you how to
    the display on 100, so when you `attach` via `xpra` on the display
    on 100, all visual things will show on the machine from which you
    start attaching.
+   
+1. When you finish using the remote machine, just `Ctrl+C` on session
+   `s2` to dettach.  Finally, make sure you stop `xpra` before you
+   shutdown the remote machine by `xpra stop :100` on session `s1`.
 
 
 ### Open Pycharm ###
@@ -140,7 +144,24 @@ remote machine.
 
 ## Postscript ##
 
-[NoMachine](https://www.nomachine.com) is a GUI tool can be used in
-similar way.  But I think it is not open source.
+- [NoMachine](https://www.nomachine.com) is a GUI tool can be used in
+  similar way.  But I think it is not open source.
 
+- Actually, you don't need to specify a display number when start
+  `xpra`, since `xpra` will use 0 by default if 0 is not used.  And
+  use the default display is better because you need not to stop it
+  manually like`xpra stop :100`.  So I put the following into
+  `~/.bashrc`:
 
+  ```bash
+  if ! xpra list | grep 'LIVE session at' > /dev/null; then xpra start; fi
+  export DISPLAY=:0
+  ```
+  
+  Then I just need to `xpra attach ssh:remote` without providing the
+  display number to get the GUIs and there is no need to stop `xpra`
+  manually before I shutdown the remote machine.
+
+- Sometimes, `xpra` will not show the windows, then you can just
+  re-attach.  Though there are some issues with `xpra`, I still think
+  it is not an bad alternative to [X2Go](http://x2go.org).
