@@ -13,6 +13,8 @@ git log reviewing more easier.
 
 `d9266e2` `Release 0.4`
 
+`1836bb6` `Resolve network problem`
+
 `2694da9` `Fix display error`
 
 `bb11508` `Working in fixing a bug`
@@ -37,7 +39,11 @@ git log reviewing more easier.
 
 `fcf5d9a` `Improve the code of rain`
 
+`128e8b2` `Make audit demo better`
+
 `f423b87` `Release 0.1`
+
+`c7c7e44` `Add new model -- barchart`
 
 `88f812d` `Add new model -- audit`
 
@@ -49,6 +55,8 @@ git log reviewing more easier.
 ## Git commits with only tags ##
 
 `d9266e2` `RELEASE: Release 0.4`
+
+`1836bb6` `BUG: Resolve network problem`
 
 `2694da9` `BUG: Fix display error`
 
@@ -74,7 +82,11 @@ git log reviewing more easier.
 
 `fcf5d9a` `IMPROVE: Improve the code of rain`
 
+`128e8b2` `IMPROVE: Make audit demo better`
+
 `f423b87` `RELEASE: Release 0.1`
+
+`c7c7e44` `NEW: Add new model -- barchart`
 
 `88f812d` `NEW: Add new model -- audit`
 
@@ -86,6 +98,8 @@ git log reviewing more easier.
 ## Git commits with Emoji ##
 
 `d9266e2` :bookmark: `Release 0.4`
+
+`1836bb6` :bug: `Resolve network problem`
 
 `2694da9` :bug: `Fix display error`
 
@@ -111,7 +125,11 @@ git log reviewing more easier.
 
 `fcf5d9a` :art: `Improve the code of rain`
 
+`128e8b2` :art: `Make audit demo better`
+
 `f423b87` :bookmark: `Release 0.1`
+
+`c7c7e44` :sparkles: `Add new model -- barchart`
 
 `88f812d` :sparkles: `Add new model -- audit`
 
@@ -123,6 +141,8 @@ git log reviewing more easier.
 ## Git commits with Emoji and tags ##
 
 `d9266e2` :bookmark: `RELEASE: Release 0.4`
+
+`1836bb6` :bug: `BUG: Resolve network problem`
 
 `2694da9` :bug: `BUG: Fix display error`
 
@@ -148,7 +168,11 @@ git log reviewing more easier.
 
 `fcf5d9a` :art: `IMPROVE: Improve the code of rain`
 
+`128e8b2` :art: `IMPROVE: Make audit demo better`
+
 `f423b87` :bookmark: `RELEASE: Release 0.1`
+
+`c7c7e44` :sparkles: `NEW: Add new model -- barchart`
 
 `88f812d` :sparkles: `NEW: Add new model -- audit`
 
