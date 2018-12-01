@@ -40,7 +40,6 @@ Git commits with Emoji | Git commits with Emoji and tags
 `2694da9` :bug: `Fix display error` | `2694da9` :bug: `BUG: Fix display error`
 `bb11508` :construction: `Working in fixing a bug` | `bb11508` :construction: `INPROGRESS: Working in fixing a bug`
 `7491b3f` :rewind: `Revert to previous revision` | `7491b3f` :rewind: `REVERT: Revert to previous revision`
-
 `7116bb3` :pencil2: `Fix typos in rain` | `7116bb3` :pencil2: `TYPO: Fix typos in rain`
 `942124d` :bookmark: `Release 0.3` | `942124d` :bookmark: `RELEASE: Release 0.3`
 `26803ad` :book: `Add documentation of audit` | `26803ad` :book: `DOC: Add documentation of audit`
