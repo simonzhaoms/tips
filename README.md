@@ -1,5 +1,5 @@
 # Tips #
 
-This is a list of articles for useful tips.
+This is a list of articles on useful tips.
 
 - [Access a remote server with `ssh` and `xpra` together](xpra-ssh.md)
