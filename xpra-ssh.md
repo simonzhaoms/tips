@@ -1,6 +1,15 @@
 # Access a remote server with `ssh` and `xpra` together #
 
 
+* [X forwarding by `ssh`](#x-forwarding-by-ssh)
+* [Speed up X forwarding by `xpra`](#speed-up-x-forwarding-by-xpra)
+* [Installation of `xpra`](#installation-of-xpra)
+* [`xpra` usage examples](#xpra-usage-examples)
+  + [`ml display rain`](#ml-display-rain)
+  + [Open Pycharm](#open-pycharm)
+  + [Reconnection](#reconnection)
+
+
 ## X forwarding by `ssh` ##
 
 [X forwarding](https://nnc3.com/mags/Networking2/ssh/ch09_03.htm)
