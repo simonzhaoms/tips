@@ -8,7 +8,7 @@
   + [`ml display rain`](#ml-display-rain)
   + [Open Pycharm](#open-pycharm)
   + [Reconnection](#reconnection)
-
+* [Postscript](#postscript)
 
 ## X forwarding by `ssh` ##
 
@@ -136,3 +136,11 @@ But you can still get them back again by typing `xpra attach
 ssh:remote:100` in any machine, as long as the GUI windows are not
 closed by mouse click and the processes are still running on the
 remote machine.
+
+
+## Postscript ##
+
+[NoMachine](https://www.nomachine.com) is a GUI tool can be used in
+similar way.  But I think it is not open source.
+
+
