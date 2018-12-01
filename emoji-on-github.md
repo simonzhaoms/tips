@@ -1,5 +1,12 @@
 # Use Emoji on GitHub #
 
+
+* [Plain Git commits](#plain-git-commits)
+* [Git commits with tags only](#git-commits-with-tags-only)
+* [Git commits with Emoji only](#git-commits-with-emoji-only)
+* [Git commits with Emoji and tags](#git-commits-with-emoji-and-tags)
+
+
 Emoji is supported on GitHub.  You can see a complete [list of
 Markdown Emoji on
 GitHub](https://www.webpagefx.com/tools/emoji-cheat-sheet/).
@@ -9,7 +16,7 @@ messages, such as [gitmoji](https://gitmoji.carloscuesta.me), can make
 git log reviewing more easier.
 
 
-## Git commits without Emoji ##
+## Plain Git commits ##
 
 `d9266e2` `Release 0.4`
 
@@ -52,7 +59,7 @@ git log reviewing more easier.
 `8a41118` `Initial commit`
 
 
-## Git commits with only tags ##
+## Git commits with tags only ##
 
 `d9266e2` `RELEASE: Release 0.4`
 
@@ -95,7 +102,7 @@ git log reviewing more easier.
 `8a41118` `Initial commit`
 
 
-## Git commits with Emoji ##
+## Git commits with Emoji only ##
 
 `d9266e2` :bookmark: `Release 0.4`
 
