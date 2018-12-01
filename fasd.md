@@ -57,7 +57,7 @@ z foo /     # Jump into the most frequently visited folder
 ## Usage with caution ##
 
 There may be some problems with the following usages.  See
-clvv/fasd#134.
+[clvv/fasd#134](https://github.com/clvv/fasd/issues/134).
 
 ```bash
 # List frequently visited files, whose names contain 'foo', for selection, and open it with gedit.
