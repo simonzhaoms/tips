@@ -1,5 +1,11 @@
 # `fasd` -- For faster folder and file jump #
 
+
+* [Installation](#installation)
+* [Safe usage](#safe-usage)
+* [Usage with caution](#usage-with-caution)
+
+
 [`fasd`](https://github.com/clvv/fasd) can be used to jump or switch
   between frequently used folders or files with less typing.  It
   supports case-insensitive matching as well as fuzzy name matching.
@@ -11,18 +17,13 @@
 - **s** for show, that is showing a list for selection.
 
 
-* [Installation](#installation)
-* [Safe usage](#safe-usage)
-* [Usage with caution](#usage-with-caution)
-
-
 ## Installation ##
 
-```console
-$ git clone https://github.com/clvv/fasd.git
-$ cd fasd
-$ sudo make install
-$ echo 'eval "$(fasd --init auto)"' >> .bashrc
+```bash
+git clone https://github.com/clvv/fasd.git
+cd fasd
+sudo make install
+echo 'eval "$(fasd --init auto)"' >> .bashrc
 ```
 
 
