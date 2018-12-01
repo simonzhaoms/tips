@@ -24,9 +24,9 @@ latency.  One solution would be to compress the communication via:
 ssh -X -C -c blowfish-cbc,arcfour user@host
 ```
 
-[However, the cipher `blowfish-cbc` and `arcfour` are not available in
-**[OpenSSH](https://www.openssh.com)**
-anymore](https://www.openssh.com/releasenotes.html).
+However, the cipher `blowfish-cbc` and `arcfour` are not available in
+**[OpenSSH](https://www.openssh.com)** anymore.  See
+https://www.openssh.com/releasenotes.html.
 
 
 ## Speed up X forwarding by `xpra` ##
@@ -123,7 +123,7 @@ There are two ways to open Pycharm locally via `xpra`:
 
 When you close the terminal where the above `xpra attach` are typed,
 all the GUI windows attached to the remote display will disappear.
-But you can still get them back again by typing \texttt{xpra attach
-ssh:remote:100} in any machine, as long as the GUI windows are not
+But you can still get them back again by typing `xpra attach
+ssh:remote:100` in any machine, as long as the GUI windows are not
 closed by mouse click and the processes are still running on the
 remote machine.
