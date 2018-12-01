@@ -5,6 +5,7 @@
 * [Git commits with tags only](#git-commits-with-tags-only)
 * [Git commits with Emoji only](#git-commits-with-emoji-only)
 * [Git commits with Emoji and tags](#git-commits-with-emoji-and-tags)
+* [Postscript](#postscript)
 
 
 Emoji is supported on GitHub.  You can see a complete [list of
@@ -186,3 +187,11 @@ git log reviewing more easier.
 `0d73457` :sparkles: `NEW: Add a new mlhub model -- rain`
 
 `8a41118` :tada: `Initial commit`
+
+
+## Postscript ##
+
+- [emojify](https://github.com/mrowa44/emojify) is an interesting tool
+  can be used to make GitHub Emoji markups display on `git log`
+  command line output.
+  
