@@ -6,3 +6,4 @@ This is a list of articles on useful tips.
 - [`fasd` -- For faster folder and file jump](fasd.md)
 - [GitHub Markdown](github-markdown.md)
 - [Use Emoji on GitHub](emoji-on-github.md)
+- [Shortcuts for taking screenshots](screenshot-shortcut.md)
