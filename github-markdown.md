@@ -13,7 +13,7 @@ See:
 - [github/linguist/lib/linguist/languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
 
-```
+<pre lang="no-highlight"><code>
 ```console
 $ pip3 install mlhub
 Collecting mlhub
@@ -23,7 +23,7 @@ Collecting pyyaml (from mlhub)
 $ ml --version
 mlhub version 2.0.1
 ```
-```
+</code></pre>
 
 ```console
 $ pip3 install mlhub
@@ -35,7 +35,8 @@ $ ml --version
 mlhub version 2.0.1
 ```
 
-```
+
+<pre lang="no-highlight"><code>
 ```c++
 #include<iostream>
 
@@ -44,7 +45,7 @@ int main() {
   return 0;
 }
 ```
-```
+</code></pre>
 
 ```c++
 #include<iostream>
@@ -53,6 +54,21 @@ int main() {
   std::cout << "Hello World!" << std::endl;
   return 0;
 }
+```
+
+
+<pre lang="no-highlight"><code>
+```no-highlight
+# Header 1
+## Header 2
+### Header 3
+```
+</code></pre>
+
+```no-highlight
+# Header 1
+## Header 2
+### Header 3
 ```
 
 
