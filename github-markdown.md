@@ -13,6 +13,8 @@ See:
 - [github/linguist/lib/linguist/languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
 
+### Console code ###
+
 <pre lang="no-highlight"><code>
 ```console
 $ pip3 install mlhub
@@ -35,13 +37,14 @@ $ ml --version
 mlhub version 2.0.1
 ```
 
+### C++ ###
 
 <pre lang="no-highlight"><code>
 ```c++
 #include<iostream>
 
 int main() {
-  std::cout << "Hello World!" << std::endl;
+  std::cout << "Hello World!\n";
   return 0;
 }
 ```
@@ -51,11 +54,12 @@ int main() {
 #include<iostream>
 
 int main() {
-  std::cout << "Hello World!" << std::endl;
+  std::cout << "Hello World!\n";
   return 0;
 }
 ```
 
+### No highlight ###
 
 <pre lang="no-highlight"><code>
 ```no-highlight
