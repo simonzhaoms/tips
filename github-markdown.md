@@ -10,7 +10,7 @@
 
 See:
 - [Creating and highlighting code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
-- [github/linguist/lib/linguist/languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
+- [List of supported languages on GitHub](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
 
 ### Console code ###
