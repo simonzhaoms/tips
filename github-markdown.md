@@ -1,8 +1,59 @@
 # GitHub Markdown #
 
 
+* [Souce code color highlighting](#souce-code-color-highlighting)
 * [Table](#table)
 * [Reference](#reference)
+
+
+## Souce code color highlighting ##
+
+See:
+- [Creating and highlighting code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
+- [github/linguist/lib/linguist/languages.yml](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
+
+
+```
+```console
+$ pip3 install mlhub
+Collecting mlhub
+  Downloading https://files.pythonhosted.org/packages/61/4c/0fe1b263358bad88525594a8dd319c40934c16e6c3cc01f32b0b8edb5537/mlhub-2.0.1.tar.gz
+Collecting pyyaml (from mlhub)
+...
+$ ml --version
+mlhub version 2.0.1
+```
+```
+
+```console
+$ pip3 install mlhub
+Collecting mlhub
+  Downloading https://files.pythonhosted.org/packages/61/4c/0fe1b263358bad88525594a8dd319c40934c16e6c3cc01f32b0b8edb5537/mlhub-2.0.1.tar.gz
+Collecting pyyaml (from mlhub)
+...
+$ ml --version
+mlhub version 2.0.1
+```
+
+```
+```c++
+#include<iostream>
+
+int main() {
+  std::cout << "Hello World!" << std::endl;
+  return 0;
+}
+```
+```
+
+```c++
+#include<iostream>
+
+int main() {
+  std::cout << "Hello World!" << std::endl;
+  return 0;
+}
+```
 
 
 ## Table ##
@@ -14,7 +65,7 @@ See:
 
 ### What GitHub Markdown can do ###
 
-```markdown
+```Markdown
 header 1 | header 2 | center | left aligned | right aligned
 -------- | -------- | :----: | :----------- | ------------:
 r 1 c 1 | r 1 c 2 | r 1 c 3 blablabla | r 1 c 4 blablabla | r 1 c 5 blablabla
