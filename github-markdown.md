@@ -1,5 +1,32 @@
 # GitHub Markdown #
 
+
+* [Table](#table)
+* [Reference](#reference)
+
+
+## Table ##
+
+See:
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
+
+
+```
+header 1 | header 2 | header 3
+-------- | -------- | --------
+row 1 column 1 | row 1 column 2 | row 1 column 3
+row 2 column 1 | row 2 column 2 | row 2 column 3
+row 3 column 1 | row 3 column 2 | row 3 column 3
+```
+
+header 1 | header 2 | header 3
+-------- | -------- | --------
+row 1 column 1 | row 1 column 2 | row 1 column 3
+row 2 column 1 | row 2 column 2 | row 2 column 3
+row 3 column 1 | row 3 column 2 | row 3 column 3
+
+
 ## Reference ##
 
 ### GitHub official reference ###
