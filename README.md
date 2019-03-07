@@ -13,8 +13,9 @@ Table of contents
 - [`fasd` -- For faster folder and file jump](fasd.md)
 - [Shortcuts for taking screenshots](screenshot-shortcut.md)
 
-## Git
+## Git and GitHub
 - [GitHub Markdown](github-markdown.md)
 - [Use Emoji on GitHub](emoji-on-github.md)
+- [Link to Code Block](link-github-code-block.md)
 
 ## Misc
