@@ -8,4 +8,6 @@
 1. Click the three-dot option and select `Copy permalink`.  Then the
    link to the code block is copied in your clipboard.
    
-![Get link to code block](figure/link-github-code.gif "demo")
+See [video](video/link-github-code.mp4 "demo").
+
+
