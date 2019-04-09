@@ -6,6 +6,7 @@ Table of contents
 =================
 * [System](#system)
 * [Git](#git)
+* [IDE](#IDE)
 * [Misc](#misc)
 
 
@@ -19,6 +20,10 @@ Table of contents
 - [GitHub Markdown](github-markdown.md)
 - [Use Emoji on GitHub](emoji-on-github.md)
 - [Link to Code Block](link-github-code-block.md)
+
+
+## IDE
+- [Code-server](code-server-on-azure-dsvm.md)
 
 
 ## MLHub
