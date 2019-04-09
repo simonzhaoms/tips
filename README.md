@@ -26,4 +26,9 @@ Table of contents
 - [**azface** - Face Detection and Recognition](mlhub/azface.md)
 
 
+## Azure
+
+- [Available Type/Size of Machines in Each Region](machine-by-region.md)
+
+
 ## Misc
