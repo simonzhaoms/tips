@@ -46,7 +46,9 @@ used in Windows.
 
 ### Prerequisites ###
 
-To use WSL, your OS must be Windows 10 version 1709 or the latest
+To use WSL, your OS must be Windows 10 version 1709 or the latest.
+You can check the version by running `systeminfo` in PowerShell or
+going to `Settings` -> `System` -> `About`.
 
 ### Install WSL ###
 
@@ -136,7 +138,8 @@ $ ls -a
   ```
   
   You can also open current working directory in WSL by executing `$
-  explorer.exe .`.  But be aware that modifying Linux files within
+  explorer.exe .` (Note: The dot in the end of the command indicates
+  current directory).  But be aware that modifying Linux files within
   Windows would have side effects, because some functionalities of
   Linux don't have similar counterparts in Windows, such as file mode,
   which would lead to inconsistencies in the file attributes when
