@@ -14,6 +14,7 @@ Table of contents
 - [Access a remote server with `ssh` and `xpra` together](xpra-ssh.md)
 - [`fasd` -- For faster folder and file jump](fasd.md)
 - [Shortcuts for taking screenshots](screenshot-shortcut.md)
+- [WSL](wsl.md)
 
 
 ## Git and GitHub
