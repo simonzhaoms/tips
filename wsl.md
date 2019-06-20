@@ -9,9 +9,11 @@
 * [Usage](#usage)
   + [Launch WSL](#launch-wsl)
   + [Interaction with Windows](#interaction-with-windows)
+  + [GUI Applications](#gui-applications)
 * [Misc](#misc)
   + [File System](#file-system)
   + [Uninstallation](#uninstallation)
+  + [WSL 2](#wsl-2)
 * [Reference](#reference)
 
 
@@ -120,6 +122,28 @@ $ ls -a
   if run in WSL.
 
 
+### GUI Applications ###
+
+1. To launch a GUI app in WSL, such as gedit, a X Server needs to be
+   installed in Windows so that it can be shown in Windows instead of
+   WSL, since WSL is just a command line environment.  There are many
+   X Server apps in Windows,
+   [Xming](https://sourceforge.net/projects/xming/) and
+   [VcXsrv](https://sourceforge.net/projects/vcxsrv/) are two of them.
+1. Then set the `DISPLAY` to tell WSL to use the X Server.  For
+   example:
+   
+   ```
+   $ DISPLAY=:0 gedit
+   ```
+   
+   Or you can add this into `~/.bashrc`:
+   
+   ```
+   export DISPLAY=:0
+   ```
+
+
 ## Misc ##
 
 ### File System ###
@@ -157,6 +181,64 @@ installation, such as
 C:\Users\<username>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\
 ```
 
+### WSL 2 ###
+
+WSL 2 is the second version of WSL, but with a completely different
+structure from WSL.  Because it uses a lightweight VM to run a real
+Linux kernel underneath instead of a compatibility translation layer,
+WSL 2 makes Windows run much more Linux applications than WSL, and
+allows to run docker containers natively.
+
+WSL 2 is still under development, and is only available in [Windows
+Insider Preview](https://insider.windows.com/en-us/getting-started/).
+
+To enable WSL 2 in Windows when you are Windows Insider Preview,
+enable 'Virtual Machine Platform' in 'Turn Windows Features On and
+Off' (`Control Panel` -> `Programs` -> `Programs and Features`) or run
+the command:
+
+```
+PS> Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
+```
+
+The usage of WSL 2 is similar to WSL, but:
+
+1. If you want to change a WSL distro into WSL 2, you need to convert
+   it by
+   
+   ```
+   PS> wsl --set-version <distro> 2
+   ```
+   
+   And the conversion may take a very long time.  So if you want
+   install a distro with WSL 2 as default, set the default version
+   before getting the distro from Windows Store:
+   
+   ```
+   PS> wsl --set-default-version 2
+   ```
+   
+   If you are not sure about the version of a distro, check it by
+   
+   ```
+   PS> wsl -l -v
+   ```
+
+1. Because WSL 2 is running in a VM, communication between WSL 2 and
+   Windows is over virtual network, thus you need to enable public
+   network access in X Server as well as in Windows firewall to allow
+   GUI apps being shown in Windows.  And then add the IP of Windows to
+   `DISPLAY`:
+   
+   ```
+   $ DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}') gedit
+   ```
+
+   The IP of Windows relative to WSL 2 can be found in the file
+   `/etc/resolv.conf`.  See [Reminder: For GUIs w/ WSL2 you need to
+   allow for public
+   access](https://www.reddit.com/r/bashonubuntuonwindows/comments/c1zfap/reminder_for_guis_w_wsl2_you_need_to_allow_for/).
+
 
 ## Reference ##
 
@@ -167,3 +249,4 @@ C:\Users\<username>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows
 * [A community powered list of programs that work (and those that don't) on the Windows subsystem for Linux](https://github.com/ethanhs/WSL-Programs)
 * [sirredbeard/Awesome-WSL](https://github.com/sirredbeard/Awesome-WSL)
 * [Windows Subsystem for Linux Blog](https://blogs.msdn.microsoft.com/wsl/)
+* [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-index)
