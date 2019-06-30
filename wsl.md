@@ -192,6 +192,15 @@ allows to run docker containers natively.
 WSL 2 is still under development, and is only available in [Windows
 Insider Preview](https://insider.windows.com/en-us/getting-started/).
 
+(**NOTE** Because Windows Insider Preview is a development version of
+Windows, it is not stable and you will be at high risk of having a
+malfunctional Windows and unable to do anything except reinstall or
+reverting to a previous state.  Another way of testing would be to
+install a [Window Insider Preview
+ISO](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)
+in a virtual machine.  However, the ISO won't be the latest version,
+and I find it doesn't contain WSL 2 when I write this article.)
+
 To enable WSL 2 in Windows when you are Windows Insider Preview,
 enable 'Virtual Machine Platform' in 'Turn Windows Features On and
 Off' (`Control Panel` -> `Programs` -> `Programs and Features`) or run
