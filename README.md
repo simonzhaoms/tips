@@ -17,10 +17,12 @@ Table of contents
 - [WSL -- Linux command line in Windows](system/wsl.md)
 - [Hyper-V -- Virtual Machine](system/hyper-v.md)
 
+
 ## Git and GitHub
 - [GitHub Markdown](github/github-markdown.md)
 - [Use Emoji on GitHub](github/emoji-on-github.md)
 - [Link to Code Block](github/link-github-code-block/link-github-code-block.md)
+- [Closing an issue via commit message](github/refer-and-close-an-issue-in-commit.md)
 
 
 ## IDE
