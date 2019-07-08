@@ -27,7 +27,7 @@ Table of contents
 - [Use Emoji on GitHub](github/emoji-on-github.md)
 - [Link to Code Block](github/link-github-code-block/link-github-code-block.md)
 - [Close an issue via commit message](github/refer-and-close-an-issue-in-commit.md)
-- [Compose a GitHub links](compose-github-links.md)
+- [Compose a GitHub links](github/compose-github-links.md)
   * For programmably composing the links to download a file in a
     specific commit from GitHub, GitLab or Bitbucket, etc.
 
