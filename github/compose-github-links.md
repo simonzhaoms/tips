@@ -1,10 +1,11 @@
 # Hosting Service URL Pattern and API Reference #
 
 The URLs of Hosting services such as GitHub, GitLab and Bitbucket have
-their patterns.  Thus we can use these patterns to compose the URL of
-a file or the repo on a specific commit rather than clicking several
-links in a row to get to where we want.  They also provide their own
-APIs for doing that, which sometimes are more intuitive to use.
+their patterns.  Thus we can use these patterns to programably compose
+the URL of a file or the repo on a specific commit rather than
+manually clicking through several links in a row to get what we want.
+They also provide their own APIs for doing that, which sometimes are
+more intuitive to use.
 
 Below is a collection of the patterns and APIs that are used in
 [MLHub](https://mlhub.ai/) to construct the URLs for MLHub package
