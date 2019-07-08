@@ -11,6 +11,17 @@ Below is a collection of the patterns and APIs that are used in
 [MLHub](https://mlhub.ai/) to construct the URLs for MLHub package
 installation from these hosting services.
 
+* [GitHub](#github)
+  - [Web URL](#web-url)
+  - [API URL](#api-url)
+* [GitLab](#gitlab)
+  - [Web URL](#web-url)
+  - [API URL](#api-url)
+* [Bitbucket](#bitbucket)
+  - [Web URL](#web-url)
+  - [API URL](#api-url)
+* [Reference](#reference)
+
 
 ## GitHub ##
 
@@ -142,7 +153,7 @@ installation from these hosting services.
   + https://gitlab.com/api/v4/projects/:id/merge_requests/:merge_request_iid/commits}
 
 
-## BitBucket ##
+## Bitbucket ##
 
 ### Web URL ###
 
