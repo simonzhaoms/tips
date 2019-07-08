@@ -6,9 +6,9 @@ a file or the repo on a specific commit rather than clicking several
 links in a row to get to where we want.  They also provide their own
 APIs for doing that, which sometimes are more intuitive to use.
 
-Below is a collection of the patterns and APIs that are used in MLHub
-to construct the URLs for MLHub package installation from these
-hosting services.
+Below is a collection of the patterns and APIs that are used in
+[MLHub](https://mlhub.ai/) to construct the URLs for MLHub package
+installation from these hosting services.
 
 
 ## GitHub ##

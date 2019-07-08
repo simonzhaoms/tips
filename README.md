@@ -39,7 +39,8 @@ Table of contents
 ## MLHub
 
 - [**azface** - Face Detection and Recognition](mlhub/azface.md)
-  * A MLHub package that wraps the Azure Face API.
+  * A [MLHub](https://mlhub.ai/) package that wraps the Azure Face
+    API.
 
 
 ## Azure
