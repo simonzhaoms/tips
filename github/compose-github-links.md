@@ -136,7 +136,7 @@ installation from these hosting services.
 ### API URL ###
 
 * File info:
-  + https://gitlab.com/api/v4/projects/:id/repository/files/:path?ref=:ref}
+  + https://gitlab.com/api/v4/projects/:id/repository/files/:path?ref=:ref
     - Response contains the `size` of the file, enconded `content`.
       Note: `:id` is `:owner/:repo` but needs to be encoded as
       `:owner%2F:repo`, where `/` is replaced by `%2`.  Similarly,
@@ -144,16 +144,16 @@ installation from these hosting services.
       `mlhub%2Fcommands%2Epy`.  `:ref` can be a branch, commit, tag,
       etc.
 * Raw file:
-  + https://gitlab.com/api/v4/projects/:id/repository/files/:path/raw?ref=:ref}
+  + https://gitlab.com/api/v4/projects/:id/repository/files/:path/raw?ref=:ref
 * Directory:
-  + https://gitlab.com/api/v4/projects/:id/repository/tree?path=:path&ref=:ref}
+  + https://gitlab.com/api/v4/projects/:id/repository/tree?path=:path&ref=:ref
     - Response is an array of JSON objects which contains the
       `type` of the object (blob or tree) and `name` of
       the file or directory.
 * Repo zip:
-  + https://gitlab.com/api/v4//projects/:id/repository/archive.zip?sha=:ref}
+  + https://gitlab.com/api/v4//projects/:id/repository/archive.zip?sha=:ref
 * Merge request commits list:
-  + https://gitlab.com/api/v4/projects/:id/merge_requests/:merge_request_iid/commits}
+  + https://gitlab.com/api/v4/projects/:id/merge_requests/:merge_request_iid/commits
 
 
 ## Bitbucket ##
