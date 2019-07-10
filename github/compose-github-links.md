@@ -37,8 +37,11 @@ installation from these hosting services.
   - https://github.com/:owner/:repo/blob/:sha/:path (Commit)
 * Raw file:
   - https://raw.githubusercontent.com/:owner/:repo/master/:path (Default)
+  - https://github.com/:owner/:repo/raw/master/:path (Default)
   - https://raw.githubusercontent.com/:owner/:repo/:branch/:path (Branch)
+  - https://github.com/:owner/:repo/raw/:branch/:path (Branch)
   - https://raw.githubusercontent.com/:owner/:repo/:sha/:path (Commit)
+  - https://github.com/:owner/:repo/raw/:sha/:path (Commit)
 * Directory:
   - https://github.com/:owner/:repo/tree/master/:path (Default)
   - https://github.com/:owner/:repo/tree/:branch/:path (Branch)
