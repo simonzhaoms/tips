@@ -11,6 +11,7 @@ Below is a collection of the patterns and APIs that are used in
 [MLHub](https://mlhub.ai/) to construct the URLs for MLHub package
 installation from these hosting services.
 
+* [Notation](#notation)
 * [GitHub](#github)
   - [Web URL](#web-url)
   - [API URL](#api-url)
@@ -20,6 +21,18 @@ installation from these hosting services.
 * [Bitbucket](#bitbucket)
   - [Web URL](#web-url-2)
   - [API URL](#api-url-2)
+
+
+## Notation ##
+
+* `:owner` -- Account/Username, such as `simonzhaoms`
+* `:repo`  -- Repo name, such as `tips`
+* `:branch` -- Branch name, such as `master`
+* `:sha` -- Commit hash, such as `093fc07`
+* `:path` -- File/directory path, such as `tips/github/compose-github-links.md`
+* `:tag` -- Tag name, such as `v1.0`
+* `:release` -- Release name, such as `v2.0`
+* `:number` -- Pull request number, such as `9`
 
 
 ## GitHub ##
