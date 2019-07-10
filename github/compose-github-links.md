@@ -15,11 +15,11 @@ installation from these hosting services.
   - [Web URL](#web-url)
   - [API URL](#api-url)
 * [GitLab](#gitlab)
-  - [Web URL](#web-url)
-  - [API URL](#api-url)
+  - [Web URL](#web-url-1)
+  - [API URL](#api-url-1)
 * [Bitbucket](#bitbucket)
-  - [Web URL](#web-url)
-  - [API URL](#api-url)
+  - [Web URL](#web-url-2)
+  - [API URL](#api-url-2)
 * [Reference](#reference)
 
 
