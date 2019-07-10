@@ -20,7 +20,6 @@ installation from these hosting services.
 * [Bitbucket](#bitbucket)
   - [Web URL](#web-url-2)
   - [API URL](#api-url-2)
-* [Reference](#reference)
 
 
 ## GitHub ##
@@ -86,6 +85,14 @@ installation from these hosting services.
       commit, tag, release or branch, I think.
 * Pull request commits list:
   + https://api.github.com/repos/:owner/:repo/pulls/:pull_number/commits
+
+#### Reference ####
+
+* GitHub REST API v3
+  - [Response if content is a file -- Contents](https://developer.github.com/v3/repos/contents/#response-if-content-is-a-file)
+  - [Response if content is a directory -- Contents](https://developer.github.com/v3/repos/contents/#response-if-content-is-a-directory)
+  - [Get archive link -- Contents](https://developer.github.com/v3/repos/contents/#get-archive-link)
+  - [List commits on a pull request -- Pull Requests](https://developer.github.com/v3/pulls/#list-commits-on-a-pull-request)
 
 
 ## GitLab ##
@@ -155,6 +162,15 @@ installation from these hosting services.
 * Merge request commits list:
   + https://gitlab.com/api/v4/projects/:id/merge_requests/:merge_request_iid/commits
 
+#### Reference ####
+
+* GitLab REST API v4
+  - [Get file from repository -- Repository files API](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository)
+  - [Get raw file from repository -- Repository files API](https://docs.gitlab.com/ee/api/repository_files.html#get-raw-file-from-repository)
+  - [List repository tree -- Repositories API](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree)
+  - [Get file archive -- Repository files API](https://docs.gitlab.com/ee/api/repositories.html#get-file-archive)
+  - [Get single MR commits -- Merge requests API](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits)
+
 
 ## Bitbucket ##
 
@@ -210,21 +226,7 @@ installation from these hosting services.
 * Repo zip: There seems no relevant API.
 * Pull request: There seems no relevant API.
 
+#### Reference ####
 
-## Reference ##
-
-* GitHub REST API v3
-  - [Response if content is a file -- Contents](https://developer.github.com/v3/repos/contents/#response-if-content-is-a-file)
-  - [Response if content is a directory -- Contents](https://developer.github.com/v3/repos/contents/#response-if-content-is-a-directory)
-  - [Get archive link -- Contents](https://developer.github.com/v3/repos/contents/#get-archive-link)
-  - [List commits on a pull request -- Pull Requests](https://developer.github.com/v3/pulls/#list-commits-on-a-pull-request)
-  
-* GitLab REST API v4
-  - [Get file from repository -- Repository files API](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository)
-  - [Get raw file from repository -- Repository files API](https://docs.gitlab.com/ee/api/repository_files.html#get-raw-file-from-repository)
-  - [List repository tree -- Repositories API](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree)
-  - [Get file archive -- Repository files API](https://docs.gitlab.com/ee/api/repositories.html#get-file-archive)
-  - [Get single MR commits -- Merge requests API](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits)
-  
 * BitBucket REST API v2
   - [Path -- Repositories](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits)
