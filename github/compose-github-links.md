@@ -82,9 +82,9 @@ installation from these hosting services.
 
 * File:
   + https://api.github.com/repos/:owner/:repo/contents/:path
-    - Reponse contains the `type` of the path (file or dir),
-      `name`, encoded `content` of the file and
-      `download_url`.
+    - Reponse contains the `type` of the path (file or dir), `name`,
+      encoded `content` of the file and `download_url`.  There is no
+      specific API for directly getting raw content of a file.
 * Directory:
   + https://api.github.com/repos/:owner/:repo/contents/:path
     - Response is an array of JSON objects which contains the
