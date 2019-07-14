@@ -21,7 +21,7 @@
 
 [**WSL** -- the Windows Subsystem for
 Linux](https://docs.microsoft.com/en-us/windows/wsl/about), was
-intrudoced in 2016.  It was called Bash on Ubuntu on Windows back
+introduced in 2016.  It was called Bash on Ubuntu on Windows back
 then.  It is a component in Windows that makes you can run Linux
 commmands (Linux binary executables) directly in Windows.  It looks
 like a virtual machine but without the overhead of it.
@@ -198,8 +198,9 @@ malfunctional Windows and unable to do anything except reinstall or
 reverting to a previous state.  Another way of testing would be to
 install a [Window Insider Preview
 ISO](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)
-in a virtual machine.  However, the ISO won't be the latest version,
-and I find it doesn't contain WSL 2 when I write this article.)
+in a virtual machine.  Though the ISO isn't the latest version, it
+contains WSL 2 so that you can have a try.  The lowest version of
+Windows with WSL 2 is Windows build 18917.)
 
 To enable WSL 2 in Windows when you are Windows Insider Preview,
 enable 'Virtual Machine Platform' in 'Turn Windows Features On and
