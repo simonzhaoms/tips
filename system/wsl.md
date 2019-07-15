@@ -192,15 +192,31 @@ allows to run docker containers natively.
 WSL 2 is still under development, and is only available in [Windows
 Insider Preview](https://insider.windows.com/en-us/getting-started/).
 
-(**NOTE** Because Windows Insider Preview is a development version of
+**NOTE** Because Windows Insider Preview is a development version of
 Windows, it is not stable and you will be at high risk of having a
 malfunctional Windows and unable to do anything except reinstall or
-reverting to a previous state.  Another way of testing would be to
+reverting to a previous state, as said in [Windows Insider Preview
+Downloads](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced):
+
+> If you want to stop using Windows 10 Insider Preview and return to
+> your previous version of Windows, you'll need to reinstall your
+> previous version from the recovery or installation media that came
+> with your PC—typically a DVD. If you don't have recovery media, you
+> might be able to create recovery media from a recovery partition on
+> your PC using software provided by your PC manufacturer. You'll need
+> to do this before you upgrade. Check the support section of your PC
+> manufacturer's website for more info.
+> 
+> After you install Windows 10 Insider Preview, you won’t be able to
+> use the recovery partition on your PC to go back to your previous
+> version of Windows.
+
+Another way of testing would be to
 install a [Window Insider Preview
 ISO](https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced)
 in a virtual machine.  Though the ISO isn't the latest version, it
 contains WSL 2 so that you can have a try.  The lowest version of
-Windows with WSL 2 is Windows build 18917.)
+Windows with WSL 2 is Windows build 18917.
 
 To enable WSL 2 in Windows when you are Windows Insider Preview,
 enable 'Virtual Machine Platform' in 'Turn Windows Features On and
