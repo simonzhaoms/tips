@@ -3,6 +3,9 @@
 
 * [Souce code color highlighting](#souce-code-color-highlighting)
 * [Table](#table)
+* [How to fold/collapse a setion](#how-to-fold-collapse-a-setion)
+* [Align images/pictures](#align-images-pictures)
+* [LaTeX math equation](#latex-math-equation)
 * [Reference](#reference)
 
 
@@ -12,6 +15,8 @@ See:
 - [Creating and highlighting code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
 - [List of supported languages on GitHub](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
+<details>
+<summary>Click to see more ...</summary>
 
 ### Console code ###
 
@@ -75,6 +80,8 @@ int main() {
 ### Header 3
 ```
 
+</details>
+
 
 ## Table ##
 
@@ -82,6 +89,8 @@ See:
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
 
+<details>
+<summary>Click to see more ...</summary>
 
 ### What GitHub Markdown can do ###
 
@@ -121,6 +130,96 @@ r 3 c 1 | r 3 c 2 | r 3 c 3 | r 3 c 4 | r 3 c 5
 <tr><td colspan="3">row 3 column 1-3</td></tr>
 </tbody>
 </table>
+
+</details>
+
+
+## How to fold/collapse a setionp ##
+
+This can be done by using HTML since it is not directly supported by
+GitHub Markdown.
+
+See:
+- [A collapsible section with markdown](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
+
+<details>
+<summary>Click to see more ...</summary>
+
+```
+<details>
+<summary>Click here ...</summary>
+
+This sentence will be collapsed/expanded by clicking the line above.
+
+</details>
+```
+
+<details>
+<summary>Click here ...</summary>
+
+This sentence will be collapsed/expanded by clicking the line above.
+
+</details>
+
+</details>
+
+
+## Align images/pictures ##
+
+This can be done by using HTML since it is not directly supported by
+GitHub Markdown.
+
+See:
+- [Center alignment](https://stackoverflow.com/a/51992125)
+- [Left and right alignment](https://stackoverflow.com/a/50192235)
+
+<details>
+<summary>Click to see more ...</summary>
+
+### Center alignment ###
+
+```html
+<p align="center"> 
+  <img src="put image url here" alt="alternate text">
+</p>
+```
+
+### Left Alignment ###
+
+```html
+<img align="left" src="put image url here">
+```
+
+### Right Alignment ###
+
+```html
+<img align="right" src="put image url here">
+```
+
+</details>
+
+
+## LaTeX math equation ##
+
+<details>
+<summary>Click to see more ...</summary>
+
+This can be done by using the service from [CodeCogs
+Equation](http://latex.codecogs.com/).  You can put the LaTeX math
+equation as parameter to the end of
+`http://latex.codecogs.com/svg.latex?`, then a svg image of the
+equation will be generated so that you can put the composed link as
+embedded image in Markdown doc.  For example, to display LeTaX
+equation `\frac{1}{1+sin(x)}`, you can use
+
+```markdown
+![my equation](http://latex.codecogs.com/svg.latex?\frac{1}{1+sin(x)})
+```
+
+Then it will be shown as a image looks like ![my
+equation](http://latex.codecogs.com/svg.latex?\frac{1}{1+sin(x)}).
+
+</details>
 
 
 ## Reference ##
