@@ -3,8 +3,8 @@
 
 * [Souce code color highlighting](#souce-code-color-highlighting)
 * [Table](#table)
-* [How to fold/collapse a setion](#how-to-fold-collapse-a-setion)
-* [Align images/pictures](#align-images-pictures)
+* [How to fold/collapse a setion](#how-to-foldcollapse-a-setion)
+* [Align images/pictures](#align-imagespictures)
 * [LaTeX math equation](#latex-math-equation)
 * [Reference](#reference)
 
