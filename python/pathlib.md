@@ -1,4 +1,13 @@
-# Unify Path Manipulation with `pathlib`#
+# Unify Path Manipulation with `pathlib` #
+
+As the official documentation said,
+
+> The `pathlib` module offers classes representing filesystem paths
+> with semantics appropriate for different operating systems.
+
+It manipulates filesystem paths in an object-oriented way, which is
+more well-organized in my opinion.
+
 
 ## Table of Content ##
 
@@ -55,6 +64,9 @@ if file_path.exists():
 ```
 
 ## `pathlib` ##
+
+In Python 3.4, `pathlib` became part of the standard library.  For
+Python 3.3 and earlier, `pip install pathlib` would be needed.
 
 ```python
 from pathlib import Path
