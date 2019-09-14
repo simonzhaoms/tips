@@ -1,6 +1,7 @@
 # Unify Path Manipulation with `pathlib` #
 
-As the official documentation said,
+As [the official documentation of
+`pathlib`](https://docs.python.org/3/library/pathlib.html) said,
 
 > The `pathlib` module offers classes representing filesystem paths
 > with semantics appropriate for different operating systems.
@@ -12,7 +13,7 @@ more well-organized in my opinion.
 ## Table of Content ##
 
 * [Comparison](#comparison)
-* [`pathlib`](#pathlib)
+* [More examples of `pathlib`](#more-examples-of-pathlib)
 * [Reference](#reference)
 
 
@@ -63,7 +64,7 @@ if file_path.exists():
         print(f.read())
 ```
 
-## `pathlib` ##
+## More examples of `pathlib` ##
 
 In Python 3.4, `pathlib` became part of the standard library.  For
 Python 3.3 and earlier, `pip install pathlib` would be needed.
@@ -110,4 +111,5 @@ d = [f for f in Path.cwd().rglob('*.py')]  # find . -name *.py
 
 ## Reference ##
 
+* [pathlib - Object-oriented filesystem paths](https://docs.python.org/3/library/pathlib.html): Official Doc
 * [Python 3's pathlib Module: Taming the File System](https://realpython.com/python-pathlib/)
