@@ -59,3 +59,7 @@ A [demo video](media/FancyZones.mp4) is also provided.
 
 ## On Linux ##
 
+### gTile ###
+
+[gTile](https://github.com/gTile/gTile) is a GNOME Shell extension
+that improves window tiling capabilities of GNOME Shell.
