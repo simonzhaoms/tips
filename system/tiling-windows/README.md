@@ -1,5 +1,11 @@
 # Window Tiling Manager #
 
+* [On Windows](#on-windows)
+  + [FancyZones](#fancyzones)
+* [On Linux](#on-linux)
+  + [gTile](#gtile)
+
+
 ## On Windows ##
 
 There are 4 shortcuts for simple window tiling:
