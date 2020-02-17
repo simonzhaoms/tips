@@ -196,6 +196,16 @@ See:
 <img align="right" src="put image url here">
 ```
 
+### Side by Side ###
+
+The most important is to adjust the `height` or `width` of the
+pictures to let them fit into a row.
+
+```html
+<img align="center" src="url 1" height="250"/>
+<img align="center" src="url 2" height="250"/>
+```
+
 </details>
 
 
