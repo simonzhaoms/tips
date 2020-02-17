@@ -166,8 +166,9 @@ This sentence will be collapsed/expanded by clicking the line above.
 
 ## Align images/pictures ##
 
-This can be done by using HTML since it is not directly supported by
-GitHub Markdown.
+To show a single picture in a GitHub markdown file, one can use
+`![alternative text](URL)`.  But aligning pictures can be done by
+using HTML since it is not directly supported by GitHub Markdown.
 
 See:
 - [Center alignment](https://stackoverflow.com/a/51992125)
