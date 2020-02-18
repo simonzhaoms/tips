@@ -59,6 +59,7 @@ file_name = file_path.parts[-1]   # 'raw.txt'
 dir_path = file_path.parent       # Path('data/test')
 file_ext = file_path.suffix       # '.txt'
 file_stem = file_path.stem        # 'raw'
+absolute_path = file_path.resolve()  # '/home/xxx/data/test/raw.txt', but file_path is still 'data/test/raw.txt'
 if file_path.exists():
     with open(file_path) as f:    # ==> with file_path.open() as f:
         print(f.read())
