@@ -58,7 +58,9 @@ This is a list of articles on useful tips.
 
 ## Python ##
 
-* [Unify Path Manipulatio with `pathlib`](python/pathlib.md)
-
+* [Unify Path Manipulation with `pathlib`](python/pathlib.md)
+* [Parse command line arguments](python/parse-command-line-args.md)
+* [Logging](python/logging.md)
+* [YAML](python/yaml.md)
 
 ## Misc ##
