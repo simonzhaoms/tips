@@ -80,6 +80,30 @@ int main() {
 ### Header 3
 ```
 
+
+### Escape backticks ###
+
+Use more backticks instead of only 3 backticks to escape backticks
+inside code block:
+
+``````
+````
+Some code
+
+```
+Some code inside another code
+```
+````
+``````
+
+````
+Some code
+
+```
+Some code inside another code
+```
+````
+
 </details>
 
 
