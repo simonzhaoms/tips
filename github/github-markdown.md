@@ -14,6 +14,7 @@
 See:
 - [Creating and highlighting code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
 - [List of supported languages on GitHub](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
+- [How to escape backticks in code block ?](https://github.com/jonschlinkert/remarkable/issues/146)
 
 <details>
 <summary>Click to see more ...</summary>
@@ -155,6 +156,9 @@ r 3 c 1 | r 3 c 2 | r 3 c 3 | r 3 c 4 | r 3 c 5
 <tr><td colspan="3">row 3 column 1-3</td></tr>
 </tbody>
 </table>
+
+To put code blocks inside a table cell, add a blank line before the
+markdown code block:
 
 ``````html
 <table>
