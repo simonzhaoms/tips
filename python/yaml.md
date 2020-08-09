@@ -18,6 +18,7 @@ doc, since JSON is a subset of YAML.
   <td>
   
 ```yaml
+# This is a comment
 number: 3.14159
 bool: true
 string: 'hello'
@@ -25,6 +26,7 @@ another string: bye bye
 dict:
   name: Simon
   weight: 66
+# the style below is called flow style, whereas the one above block style
 another-dict: {name: Simon, weight: 66}
 ```
   </td>
@@ -64,7 +66,7 @@ list:
   - pear
   - orange
 another_list: [apple, pear, orange]
-list-of-dict:
+'list of dict':
   - name: Simon
     weight: 66
   - surname: Zhao
@@ -131,6 +133,7 @@ code: |
   <td>
 
 ```yaml
+---
 name: Simon
 ---
 name: Zhao
@@ -161,6 +164,15 @@ To read YAML file:
 ```python
 import yaml
 
+# read YAML string
+doc = """
+a: 1
+b:
+  c: 3
+  d: 4
+"""
+print(yaml.load(doc))
+
 # read YAML file containing a single YAML document
 with open('xxx.yaml') as f:
     print(yaml.load(f))
@@ -189,7 +201,7 @@ two = [one, one]
 print(yaml.dump(one))
 
 # dump multiple objects
-print(yaml.dump_all(two))
+print(yaml.dump_all(two, , explicit_start=True))
 ```
 
 
@@ -202,3 +214,4 @@ print(yaml.dump_all(two))
 * [YAML Tutorial](https://gettaurus.org/docs/YAMLTutorial/)
 * [YAML ain't Markup Language | Completely Different](http://jessenoller.com/blog/2009/04/13/yaml-aint-markup-language-completely-different)
 * [How to read YAML file in Python with ordered keys](https://codeyarns.com/2017/11/23/how-to-read-yaml-file-in-python-with-ordered-keys/)
+* [Learn X in Y minutes -- Where X=yaml](https://learnxinyminutes.com/docs/yaml/)
