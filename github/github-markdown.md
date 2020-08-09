@@ -132,7 +132,7 @@ r 3 c 1 | r 3 c 2 | r 3 c 3 | r 3 c 4 | r 3 c 5
 </tbody>
 </table>
 
-```html
+``````html
 <table>
 <tr><th>YAML</th><th>JSON</th></tr>
 <tr>
@@ -170,7 +170,7 @@ another-dict: {name: Simon, weight: 66}
   </td>
 </tr>
 </table>
-```
+``````
 
 <table>
 <tr><th>YAML</th><th>JSON</th></tr>
