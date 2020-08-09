@@ -88,6 +88,7 @@ int main() {
 See:
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
+- [Github markdown, syntax highlight of code blocks in the table cell](https://stackoverflow.com/a/53038904)
 
 <details>
 <summary>Click to see more ...</summary>
@@ -129,6 +130,84 @@ r 3 c 1 | r 3 c 2 | r 3 c 3 | r 3 c 4 | r 3 c 5
 <tr><td>row 2 column 1</td><td align="right">row 2 column 2</td></tr>
 <tr><td colspan="3">row 3 column 1-3</td></tr>
 </tbody>
+</table>
+
+```html
+<table>
+<tr><th>YAML</th><th>JSON</th></tr>
+<tr>
+  <td>
+  
+```yaml
+number: 3.14159
+bool: true
+string: 'hello'
+another-string: bye bye
+dict:
+  name: Simon
+  weight: 66
+another-dict: {name: Simon, weight: 66}
+```
+  </td>
+  <td>
+
+```json
+{
+  "number": 3.14159,
+  "bool": true,
+  "string": "hello",
+  "another-string": "bye bye",
+  "dict": {
+    "name": "Simon",
+    "weight": 66
+  },
+  "another-dict": {
+    "name": "Simon",
+    "weight": 66
+  }
+}
+```
+  </td>
+</tr>
+</table>
+```
+
+<table>
+<tr><th>YAML</th><th>JSON</th></tr>
+<tr>
+  <td>
+  
+```yaml
+number: 3.14159
+bool: true
+string: 'hello'
+another-string: bye bye
+dict:
+  name: Simon
+  weight: 66
+another-dict: {name: Simon, weight: 66}
+```
+  </td>
+  <td>
+
+```json
+{
+  "number": 3.14159,
+  "bool": true,
+  "string": "hello",
+  "another-string": "bye bye",
+  "dict": {
+    "name": "Simon",
+    "weight": 66
+  },
+  "another-dict": {
+    "name": "Simon",
+    "weight": 66
+  }
+}
+```
+  </td>
+</tr>
 </table>
 
 </details>
