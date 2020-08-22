@@ -58,20 +58,27 @@ To use `xpra`, you have to install it on both the remote and your
 local machine.  For example, on Ubuntu:
 
 ```bash
-sudo apt-get install curl
-sudo curl https://winswitch.org/gpg.asc | sudo apt-key add -
-sudo bash -c "echo 'deb http://winswitch.org/ $(lsb_release -cs) main' > /etc/apt/sources.list.d/winswitch.list"
-sudo apt-get install -y software-properties-common
-sudo add-apt-repository universe
+# see https://askubuntu.com/questions/1203609/how-to-add-xpra-repository-list
+
+# install https support for apt (which may be installed already):
+sudo apt-get update
+sudo apt-get install apt-transport-https
+
+# add Xpra GPG key
+wget -q https://xpra.org/gpg.asc -O- | sudo apt-key add -
+
+# add Xpra repository
+sudo add-apt-repository "deb https://xpra.org/ $(lsb_release -cs) main"
+
+# install Xpra package
 sudo apt-get update
 sudo apt-get install xpra
 ```
 
 See [Repository Installation Instructions for Window
-  Switch](https://winswitch.org/downloads/) for instructions on other
-  systems.  **Window Switch** is a GUI front end for `xpra`.  However,
-  I think there are some bugs for Window Switch that makes it hard to
-  use.
+Switch](https://winswitch.org/downloads/) for instructions on other
+systems.  **Window Switch** is a GUI front end for `xpra`.  However, I
+think there are some bugs for Window Switch that makes it hard to use.
 
 
 ## `xpra` usage examples ##
