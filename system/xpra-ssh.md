@@ -91,14 +91,14 @@ This example will show you how to
    `s1`), type:
 
    ```console
-   simon@local$ ssh remote            # ssh to the remote machine
-   simon@remote$ xpra start :100      # Start a xpra session on a display numbered 100
-   simon@remote$ export DISPLAY=:100  # Make sure subsequent GUIs show on the display 100
-   simon@remote$ pip3 install mlhub   # Install mlhub -- The Machine Learning Hub
-   simon@remote$ ml configure         # Configure mlhub
-   simon@remote$ ml install rain      # Install the rain model in mlhub
-   simon@remote$ ml configure rain    # Configure rain
-   simon@remote$ ml display rain      # Display rain
+   simon@s1$ ssh test@remote         # ssh to the remote machine
+   test@remote$ xpra start :100      # Start a xpra session on a display numbered 100
+   test@remote$ export DISPLAY=:100  # Make sure subsequent GUIs show on the display 100
+   test@remote$ pip3 install mlhub   # Install mlhub -- The Machine Learning Hub
+   test@remote$ ml configure         # Configure mlhub
+   test@remote$ ml install rain      # Install the rain model in mlhub
+   test@remote$ ml configure rain    # Configure rain
+   test@remote$ ml display rain      # Display rain
    ```
 
    Nothing happens!? Wait util you finish the next step.
@@ -107,7 +107,7 @@ This example will show you how to
    `s2`), type:
 
    ```console
-   simon@local$ xpra attach ssh:remote:100  # Attach the local display to the remote display 100
+   simon@s2$ xpra attach ssh:test@remote:100  # Attach the local display to the remote display 100
    ```
    
    then some rain-related windows will be popped up right away on the
