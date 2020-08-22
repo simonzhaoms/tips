@@ -59,6 +59,7 @@ local machine.  For example, on Ubuntu:
 
 ```bash
 # see https://askubuntu.com/questions/1203609/how-to-add-xpra-repository-list
+# and https://xpra.org/beta/
 
 # install https support for apt (which may be installed already):
 sudo apt-get update
