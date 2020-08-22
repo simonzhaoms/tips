@@ -62,7 +62,7 @@ local machine.  For example, on Ubuntu:
 
 # install https support for apt (which may be installed already):
 sudo apt-get update
-sudo apt-get install apt-transport-https
+sudo apt-get install -y apt-transport-https
 
 # add Xpra GPG key
 wget -q https://xpra.org/gpg.asc -O- | sudo apt-key add -
@@ -72,7 +72,7 @@ sudo add-apt-repository "deb https://xpra.org/ $(lsb_release -cs) main"
 
 # install Xpra package
 sudo apt-get update
-sudo apt-get install xpra
+sudo apt-get install -y xpra
 ```
 
 See [Repository Installation Instructions for Window
