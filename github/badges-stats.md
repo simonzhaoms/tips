@@ -24,3 +24,6 @@ It will show:
 
 * Examples
     + [Miguel's GitHub repo README](https://github.com/miguelgfierro/miguelgfierro)
+* GitHub badges
+    + [Adding a workflow status badge](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)
+	+ [Better status badges for GitHub actions](https://nklya.medium.com/useful-status-badges-for-github-actions-16e658d52ba2)
