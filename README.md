@@ -37,6 +37,7 @@ This is a list of articles on useful tips.
 * [Compose a GitHub links](github/compose-github-links.md)
   + For programmably composing the links to download a file in a
     specific commit from GitHub, GitLab or Bitbucket, etc.
+* [Badges and Stats](github/badges-stats.md)
 
 
 ## IDE ##
