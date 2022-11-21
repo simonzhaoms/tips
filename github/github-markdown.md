@@ -352,7 +352,7 @@ GitHub](https://docs.github.com/en/get-started/writing-on-github/working-with-ad
 Available TeX/LaTeX commands are listed in [Supported TeX/LaTeX
 commands](https://docs.mathjax.org/en/latest/input/tex/macros/index.html).
 For example, if the following LaTex math equation is put inside a
-`\`\`\`math` code block:
+```````math```` code block:
 
 ```latex
 \mathbf{J} = [
