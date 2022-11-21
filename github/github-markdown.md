@@ -340,6 +340,51 @@ equation `\frac{1}{1+sin(x)}`, you can use
 Then it will be shown as a image looks like ![my
 equation](http://latex.codecogs.com/svg.latex?\frac{1}{1+sin(x)}).
 
+### Update on 21/11/2022 ###
+
+As announced in 19/05/2022 at [Math support in
+Markdown](https://github.blog/2022-05-19-math-support-in-markdown/),
+GitHub now supports math expressions natively in Markdown by using the
+JavaScript library MathJax.  See [Writing mathematical expressions:
+Use Markdown to display mathematical expressions on
+GitHub](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions).
+
+Available TeX/LaTeX commands are listed in [Supported TeX/LaTeX
+commands](https://docs.mathjax.org/en/latest/input/tex/macros/index.html).
+For example, if the following LaTex math equation is put inside a
+`\`\`\`math` code block:
+
+```latex
+\mathbf{J} = [
+  \frac{\partial\mathbf{Y}}{\partial x_1},
+  \frac{\partial\mathbf{Y}}{\partial x_2},
+  \ldots,
+  \frac{\partial\mathbf{Y}}{\partial x_n}
+  ] =
+  \begin{bmatrix}
+    \frac{\partial f_1}{\partial x_1} & \cdots &\frac{\partial f_1}{\partial x_n} \\
+    \vdots                            & \ddots & \vdots  \\
+    \frac{\partial f_m}{\partial x_1} & \cdots & \frac{\partial f_m}{\partial x_n}
+  \end{bmatrix}
+```
+
+then it will be rendered by GitHub as:
+
+```math
+\mathbf{J} = [
+  \frac{\partial\mathbf{Y}}{\partial x_1},
+  \frac{\partial\mathbf{Y}}{\partial x_2},
+  \ldots,
+  \frac{\partial\mathbf{Y}}{\partial x_n}
+  ] =
+  \begin{bmatrix}
+    \frac{\partial f_1}{\partial x_1} & \cdots &\frac{\partial f_1}{\partial x_n} \\
+    \vdots                            & \ddots & \vdots  \\
+    \frac{\partial f_m}{\partial x_1} & \cdots & \frac{\partial f_m}{\partial x_n}
+  \end{bmatrix}
+```
+
+
 </details>
 
 
