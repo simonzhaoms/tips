@@ -5,6 +5,8 @@
 <details>
 <summary>Click to see more ...</summary>
 
+See [Markdown: Syntax](https://daringfireball.net/projects/markdown/syntax#code).
+
 ### Excape backticks in plain text ###
 
 Backticks in plain text can be backslash-excaped:
@@ -19,7 +21,7 @@ The symbol "\`" is called a backtick.
 ### Excape backticks in inline code blocks ###
 
 Backticks in inline code blocks can be excaped by being enclosed
-between `` `` `` and ``  `` ``:
+between ``` `` ``` and ``` `` ```:
 
 ```
 The keyboard shortcut (`` ^` ``) can be used to open a terminal window in VS Code.
