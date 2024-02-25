@@ -21,7 +21,7 @@ The symbol "\`" is called a backtick.
 ### Excape backticks in inline code blocks ###
 
 Backticks in inline code blocks can be excaped by being enclosed
-between ``` `` ``` and ``` `` ```:
+between ``` ``  ``` and ``` ``  ```:
 
 ```
 The keyboard shortcut (`` ^` ``) can be used to open a terminal window in VS Code.
