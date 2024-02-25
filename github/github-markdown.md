@@ -115,18 +115,18 @@ See:
 not be rendered correctly.
 
 ```Markdown
-header 1 | header 2 | center | left aligned | right aligned
--------- | -------- | :----: | :----------- | ------------:
-r 1 c 1 | r 1 c 2 | r 1 c 3 blablabla | r 1 c 4 blablabla | r 1 c 5 blablabla
-&nbsp;  | r 2 c 2 | r 2 c 3 | r 2 c 4 | r 2 c 5
-r 3 c 1 | r 3 c 2 | r 3 c 3 | r 3 c 4 | r 3 c 5
+|header 1|header 2|center|left aligned|right aligned|
+|--------|--------|:----:|:-----------|------------:|
+| r 1 c 1 | r 1 c 2 | r 1 c 3 blablabla | r 1 c 4 blablabla | r 1 c 5 blablabla |
+| &nbsp;  | r 2 c 2 | r 2 c 3 | r 2 c 4 | r 2 c 5 |
+| r 3 c 1 | r 3 c 2 | r 3 c 3 | r 3 c 4 | r 3 c 5 |
 ```
 
-header 1 | header 2 | center | left aligned | right aligned
--------- | -------- | :----: | :----------- | ------------:
-r 1 c 1 | r 1 c 2 | r 1 c 3 blablabla | r 1 c 4 blablabla | r 1 c 5 blablabla
-&nbsp;  | r 2 c 2 | r 2 c 3 | r 2 c 4 | r 2 c 5
-r 3 c 1 | r 3 c 2 | r 3 c 3 | r 3 c 4 | r 3 c 5
+| header 1 | header 2 | center            | left aligned      |     right aligned |
+|----------|----------|:-----------------:|:------------------|------------------:|
+| r 1 c 1  | r 1 c 2  | r 1 c 3 blablabla | r 1 c 4 blablabla | r 1 c 5 blablabla |
+| &nbsp;   | r 2 c 2  | r 2 c 3           | r 2 c 4           |           r 2 c 5 |
+| r 3 c 1  | r 3 c 2  | r 3 c 3           | r 3 c 4           |           r 3 c 5 |
 
 
 ### What can only be done by HTML ###
