@@ -1,5 +1,59 @@
 # GitHub Markdown #
 
+## Escape backticks ##
+
+<details>
+<summary>Click to see more ...</summary>
+
+### Excape backticks in plain text ###
+
+Backticks in plain text can be backslash-excaped:
+
+```
+The symbol "\`" is called a backtick.
+```
+
+The symbol "\`" is called a backtick.
+
+
+### Excape backticks in inline code blocks ###
+
+Backticks in inline code blocks can be excaped by being enclosed
+between `` `` `` and ``  `` ``:
+
+```
+The keyboard shortcut (`` ^` ``) can be used to open a terminal window in VS Code.
+```
+
+The keyboard shortcut (`` ^` ``) can be used to open a terminal window in VS Code.
+
+
+### Escape backticks ###
+
+Use more backticks instead of only 3 backticks to escape backticks
+inside code block:
+
+``````
+````
+Some code
+
+```
+Some code inside another code
+```
+````
+``````
+
+````
+Some code
+
+```
+Some code inside another code
+```
+````
+
+</details>
+
+
 ## Souce code color highlighting ##
 
 <details>
@@ -72,29 +126,6 @@ int main() {
 ### Header 3
 ```
 
-
-### Escape backticks ###
-
-Use more backticks instead of only 3 backticks to escape backticks
-inside code block:
-
-``````
-````
-Some code
-
-```
-Some code inside another code
-```
-````
-``````
-
-````
-Some code
-
-```
-Some code inside another code
-```
-````
 
 </details>
 
