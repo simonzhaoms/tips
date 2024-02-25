@@ -1,23 +1,14 @@
 # GitHub Markdown #
 
-
-* [Souce code color highlighting](#souce-code-color-highlighting)
-* [Table](#table)
-* [How to fold/collapse a setion](#how-to-foldcollapse-a-setion)
-* [Align images/pictures](#align-imagespictures)
-* [LaTeX math equation](#latex-math-equation)
-* [Reference](#reference)
-
-
 ## Souce code color highlighting ##
+
+<details>
+<summary>Click to see more ...</summary>
 
 See:
 - [Creating and highlighting code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/)
 - [List of supported languages on GitHub](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 - [How to escape backticks in code block ?](https://github.com/jonschlinkert/remarkable/issues/146)
-
-<details>
-<summary>Click to see more ...</summary>
 
 ### Console code ###
 
@@ -110,13 +101,13 @@ Some code inside another code
 
 ## Table ##
 
+<details>
+<summary>Click to see more ...</summary>
+
 See:
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Organizing information with tables](https://help.github.com/articles/organizing-information-with-tables/)
 - [Github markdown, syntax highlight of code blocks in the table cell](https://stackoverflow.com/a/53038904)
-
-<details>
-<summary>Click to see more ...</summary>
 
 ### What GitHub Markdown can do ###
 
@@ -244,16 +235,16 @@ another-dict: {name: Simon, weight: 66}
 </details>
 
 
-## How to fold/collapse a setionp ##
+## How to fold/collapse a setion ##
+
+<details>
+<summary>Click to see more ...</summary>
 
 This can be done by using HTML since it is not directly supported by
 GitHub Markdown.
 
 See:
 - [A collapsible section with markdown](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
-
-<details>
-<summary>Click to see more ...</summary>
 
 ```
 <details>
@@ -276,6 +267,9 @@ This sentence will be collapsed/expanded by clicking the line above.
 
 ## Align images/pictures ##
 
+<details>
+<summary>Click to see more ...</summary>
+
 To show a single picture in a GitHub markdown file, one can use
 `![alternative text](URL)`.  But aligning pictures can be done by
 using HTML since it is not directly supported by GitHub Markdown.
@@ -283,9 +277,6 @@ using HTML since it is not directly supported by GitHub Markdown.
 See:
 - [Center alignment](https://stackoverflow.com/a/51992125)
 - [Left and right alignment](https://stackoverflow.com/a/50192235)
-
-<details>
-<summary>Click to see more ...</summary>
 
 ### Center alignment ###
 
