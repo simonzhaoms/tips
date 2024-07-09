@@ -39,12 +39,19 @@ inside code block:
 ````
 Some code
 
-``` Some code inside another code ``` ```` ``````
+```
+Some code inside another code
+```
+````
+``````
 
 ````
 Some code
 
-``` Some code inside another code ``` ````
+```
+Some code inside another code
+```
+````
 
 </details>
 
