@@ -390,10 +390,10 @@ GitHub](https://docs.github.com/en/get-started/writing-on-github/working-with-ad
     - being in a list.  In other words, no indentation is allowed
       before `` ```math ``.
 
-For example, if the following LaTex math equation is put inside a
-`` ```math `` code block:
+For example, the following block
 
-```latex
+````latex
+```math
 \mathbf{J} = [
   \frac{\partial\mathbf{Y}}{\partial x_1},
   \frac{\partial\mathbf{Y}}{\partial x_2},
@@ -406,8 +406,9 @@ For example, if the following LaTex math equation is put inside a
     \frac{\partial f_m}{\partial x_1} & \cdots & \frac{\partial f_m}{\partial x_n}
   \end{bmatrix}
 ```
+````
 
-then it will be rendered by GitHub as:
+will be rendered by GitHub as:
 
 ```math
 \mathbf{J} = [
