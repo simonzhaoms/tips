@@ -383,9 +383,12 @@ GitHub](https://docs.github.com/en/get-started/writing-on-github/working-with-ad
     expression contains characters overlapping with markdown syntax.
 * For display style math expressions, we can use the `` ```math ``
   code block syntax.
-  + However, the the `` ```math `` code block syntax will not be
-    rendered inside the `<details></details>` folded section mentioned
-    above.
+  + However, the `` ```math `` code block syntax will not be rendered,
+    when
+    - being inside the `<details></details>` folded section mentioned
+      above, or
+    - being in a list.  In other words, no indentation is allowed
+      before `` ```math ``.
 
 For example, if the following LaTex math equation is put inside a
 `` ```math `` code block:
