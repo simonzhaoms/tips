@@ -369,12 +369,24 @@ equation](http://latex.codecogs.com/svg.latex?\frac{1}{1+sin(x)}).
 As announced in 19/05/2022 at [Math support in
 Markdown](https://github.blog/2022-05-19-math-support-in-markdown/),
 GitHub now supports math expressions natively in Markdown by using the
-JavaScript library MathJax.  See [Writing mathematical expressions:
-Use Markdown to display mathematical expressions on
+JavaScript library MathJax.  Available TeX/LaTeX commands are listed
+in [Supported TeX/LaTeX
+commands](https://docs.mathjax.org/en/latest/input/tex/macros/index.html).
+See [Writing mathematical expressions: Use Markdown to display
+mathematical expressions on
 GitHub](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions).
 
-Available TeX/LaTeX commands are listed in [Supported TeX/LaTeX
-commands](https://docs.mathjax.org/en/latest/input/tex/macros/index.html).
+* For inline math expressions, GitHub provides two ways:
+  + We can surround the expression with `$`.
+  + Or we start the expression with `` $` `` and end it with `` `$ ``
+    which is recommended because it is always valid when the
+    expression contains characters overlapping with markdown syntax.
+* For display style math expressions, we can use the `` ```math ``
+  code block syntax.
+  + However, the the `` ```math `` code block syntax will not be
+    rendered inside the `<details></details>` folded section mentioned
+    above.
+
 For example, if the following LaTex math equation is put inside a
 `` ```math `` code block:
 
