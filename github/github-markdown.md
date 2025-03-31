@@ -381,8 +381,9 @@ GitHub](https://docs.github.com/en/get-started/writing-on-github/working-with-ad
   + Or we start the expression with `` $` `` and end it with `` `$ ``
     which is recommended because it is always valid when the
     expression contains characters overlapping with markdown syntax.
-* For display style math expressions, we can use the `` ```math ``
-  code block syntax.
+* For display style math expressions, we can use start a new line and
+  delimit the expression with two dollar symbols `$$` or the ``
+  ```math `` code block syntax.
   + However, the `` ```math `` code block syntax will not be rendered,
     when
     - being inside the `<details></details>` folded section mentioned
